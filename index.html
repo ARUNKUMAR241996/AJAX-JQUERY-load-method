@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title></title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="loaddata"><h2>this is gonna change</h2></div>
+<button id="buttonclick">ckick here</button>
+<script type="text/javascript">
+     
+	 $(document).ready(function(){
+	 $('#buttonclick').click(function(){
+	 $('#loaddata').load('login.html');
+	 alert("this is done");
+	 })
+	 });
+</script>
+
+</body>
+</html>
